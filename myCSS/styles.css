@@ -278,8 +278,17 @@ button {
 .imgcontainer {
     width: 100%;
     height: 400px;
+    position: relative;
 }
 
+/* The title that appears when hovered */
+.hovertitle {
+    position: absolute;
+    bottom: 15px;
+    left: 16px;
+    opacity: 0;
+    font-size: 1.5rem;
+}
 
 
 
@@ -295,10 +304,24 @@ button {
     object-fit: cover;
 }
 
-.gridcontent:hover img {
-    opacity: 25%;
-    transition: 0.5s;
+.imgcontainer video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
+
+.imgcontainer:hover .hovertitle {
+    opacity: 1;
+}
+
+.imgcontainer:hover img {
+    opacity: 25%;
+    transition: 0.3s ease;
+}
+
+
+
+
 
 .hide {
     display: none;
@@ -309,6 +332,7 @@ button {
     display: block;
     color: red;
 }
+
 
 
 
@@ -460,6 +484,8 @@ button {
     font-family: "Roboto Flex", sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .processline {
@@ -487,6 +513,8 @@ button {
     width: 100%;
     object-fit: cover;
 }
+
+
 
 
 
@@ -628,5 +656,6 @@ button {
     height: 1px;
     background-color: white;
     margin-bottom: 1rem;
+    margin-top: 5rem;
 }
 
