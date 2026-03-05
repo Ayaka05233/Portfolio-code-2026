@@ -527,7 +527,8 @@ button {
 @media (max-width: 700px){
     .descriptiongrid {
         grid-template-columns: 1fr;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
+
     }
 }
 
@@ -596,8 +597,11 @@ button {
 @media (max-width: 700px){
     .line {
         margin-bottom: 2rem;
+        margin-top: 1rem;
     }
 }
+
+
 
 
 /*Process Section*/
