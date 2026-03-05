@@ -527,7 +527,7 @@ button {
 @media (max-width: 700px){
     .descriptiongrid {
         grid-template-columns: 1fr;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 }
 
@@ -555,6 +555,12 @@ button {
     
 }
 
+@media (max-width: 700px){
+    .paragraph {
+        margin-top: 1rem;
+    }
+}
+
 
 
 .descriptiongrid h2 {
@@ -567,10 +573,17 @@ button {
 }
 
 @media (max-width: 700px){
+    .descriptiongrid h2 {
+        font-size: 1.2rem;
+    }
+}
+/*
+@media (max-width: 700px){
     .aboutgrid h2 {
         font-size: 1rem;
     }
 }
+    */
 
 .line {
     height: 0.8px;
@@ -580,11 +593,25 @@ button {
     margin-bottom: 2.5rem;
 }
 
+@media (max-width: 700px){
+    .line {
+        margin-bottom: 2rem;
+    }
+}
+
+
 /*Process Section*/
 
 .process {
     padding-left: 50px;
     padding-right: 50px;
+}
+
+@media (max-width: 700px){
+    .process {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
 
 .processhead {
