@@ -250,13 +250,13 @@ button {
 
     .eng {
         margin-bottom: 10px;
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
 
     .jp {
         font-family: "Noto Serif JP", serif;
         font-weight: 200;
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
 
 }
@@ -366,6 +366,12 @@ button {
     transition: 0.2s ease;
 }
 
+@media (max-width: 700px){
+    .imgcontainer:hover img {
+    opacity: 100%;
+}
+}
+
 
 .imgcontainer video {
     width: 100%;
@@ -376,8 +382,14 @@ button {
 .imgcontainer video:hover {
     opacity: 20%;
     transition: 0.2s ease;
-    
 }
+
+@media (max-width: 700px){
+    .imgcontainer video:hover {
+    opacity: 100%;
+}
+}
+
 
 
 
