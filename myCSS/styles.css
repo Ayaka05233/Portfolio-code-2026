@@ -58,6 +58,8 @@ body {
     padding-bottom: 22px;
     padding-left: 20px;
     padding-right: 20px;
+    justify-content: center;
+
 }
 }
 
@@ -112,6 +114,7 @@ body {
 .spinn {
     animation: spin 3s linear infinite;
     height: 20px;
+    rotate: 90deg;
 }
 
 @keyframes spin {
@@ -170,7 +173,7 @@ button {
         right: -100%;
         height: 100vh;
         width: 100%;
-        transition: right 1s cubic-bezier(.78,-0.01,.46,1.01);
+        transition: right 0.7s cubic-bezier(.78,-0.01,.46,1.01);
         z-index: 99;
         padding-left: 20px;
         padding-right: 20px;
