@@ -4,23 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>198 Logo Animation</title>
-    <link rel="stylesheet" href="../myCSS/styles.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="/myCSS/styles.css">
+    <script src="/script.js" defer></script>
 
     <!-- ☀️ GOOGLE FONTS ☀️ -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&family
     =Geist+Mono:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,
-    XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap" 
-    rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 
 </head>
 
@@ -28,23 +25,24 @@
 
 
 <body>
-         <nav class="nav">
+<!--Desktop Nav for project pages-->
+    <nav class="nav">
     <div class="navcontainer">
         <a href="/index.html" class="works">WORKS</a>
-
-    <a href="/index.html" class="icon">
+    <a class="icon" href="/index.html">
         <img src="/images/Ayaka Iwaki.svg" alt="Portfolio Icon">
     </a>
-
     <div class="navright">
-        <a href="/html/about.html">ABOUT</a>
-        <a>CONTACT</a>
-        <a>INSTAGRAM</a>
+        <a href="html/about.html">ABOUT</a>
+        <a href="mailto:aiwaki@ocadu.ca">CONTACT</a>
+        <a href="https://www.instagram.com/ayakaiwaki5/?hl=en" target="_blank">
+            <img class="instadesktop" src="/images/icons/Instagram.svg">
+        </a>
     </div>
 
     <!--burger button-->
     <button class="diamond" id="open-sidebar-button" onclick="openSidebar()">
-        <img class="spinn" src="../images/diamond.svg">
+        <img class="spinn" src="/images/diamond.svg">
     </button>
 
     </div>
@@ -60,33 +58,33 @@
   <div id="navbar" class="navi">
 
     <button id="close-sidebar-button" onclick="closeSidebar()">
-                <img class="close" src="../images/icons/Close.svg">
+                <img class="close" src="/images/icons/Close.svg">
     </button>
     
     <ul class="burgercontainer">
         <li class="burgertext">
-            <a href="../html/index.html">
+            <a href="/index.html">
                 WORK
             </a>
         </li>
         <li class="burgertext">
-            <a href="../html/about.html">
+            <a href="/html/about.html">
                 ABOUT
             </a>
         </li>
 
         <li class="burgertext">
-            <a>
+            <a href="mailto:aiwaki@ocadu.ca">
                 CONTACT
             </a>
         </li>
 
         <div class="socialcontainer">
                 <a href="https://www.instagram.com/ayakaiwaki5/?hl=en">
-                <img class="iconsvg" src="../images/icons/Instagram.svg">
+                <img class="iconsvg" src="/images/icons/Instagram.svg">
                 </a>
                 <a href="https://www.linkedin.com/in/ayaka-iwaki-6b40132b3/">
-                <img class="iconsvg" src="../images/icons/Linkeden.svg">
+                <img class="iconsvg" src="/images/icons/Linkeden.svg">
                 </a>
         </div>
     </ul>

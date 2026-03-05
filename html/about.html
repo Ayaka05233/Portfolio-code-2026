@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="stylesheet" href="../myCSS/styles.css">
-    <script src="script.js" defer></script>
+    <script src="/script.js" defer></script>
 
     <!-- ☀️ GOOGLE FONTS ☀️ -->
      <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,23 +20,24 @@
 
 
 <body>
-          <nav class="nav">
+<!--Desktop Nav for project pages-->
+    <nav class="nav">
     <div class="navcontainer">
         <a href="/index.html" class="works">WORKS</a>
-
-    <a href="/index.html" class="icon">
+    <a class="icon" href="/index.html">
         <img src="/images/Ayaka Iwaki.svg" alt="Portfolio Icon">
     </a>
-
     <div class="navright">
-        <a href="/html/about.html">ABOUT</a>
-        <a>CONTACT</a>
-        <a>INSTAGRAM</a>
+        <a href="html/about.html">ABOUT</a>
+        <a href="mailto:aiwaki@ocadu.ca">CONTACT</a>
+        <a href="https://www.instagram.com/ayakaiwaki5/?hl=en" target="_blank">
+            <img class="instadesktop" src="/images/icons/Instagram.svg">
+        </a>
     </div>
 
     <!--burger button-->
     <button class="diamond" id="open-sidebar-button" onclick="openSidebar()">
-        <img class="spinn" src="../images/diamond.svg">
+        <img class="spinn" src="/images/diamond.svg">
     </button>
 
     </div>
@@ -52,33 +53,33 @@
   <div id="navbar" class="navi">
 
     <button id="close-sidebar-button" onclick="closeSidebar()">
-                <img class="close" src="../images/icons/Close.svg">
+                <img class="close" src="/images/icons/Close.svg">
     </button>
     
     <ul class="burgercontainer">
         <li class="burgertext">
-            <a href="../html/index.html">
+            <a href="/index.html">
                 WORK
             </a>
         </li>
         <li class="burgertext">
-            <a href="../html/about.html">
+            <a href="/html/about.html">
                 ABOUT
             </a>
         </li>
 
         <li class="burgertext">
-            <a>
+            <a href="mailto:aiwaki@ocadu.ca">
                 CONTACT
             </a>
         </li>
 
         <div class="socialcontainer">
                 <a href="https://www.instagram.com/ayakaiwaki5/?hl=en">
-                <img class="iconsvg" src="../images/icons/Instagram.svg">
+                <img class="iconsvg" src="/images/icons/Instagram.svg">
                 </a>
                 <a href="https://www.linkedin.com/in/ayaka-iwaki-6b40132b3/">
-                <img class="iconsvg" src="../images/icons/Linkeden.svg">
+                <img class="iconsvg" src="/images/icons/Linkeden.svg">
                 </a>
         </div>
     </ul>
