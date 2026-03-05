@@ -216,11 +216,34 @@ button {
 }
 
 
+
+
+
 /* Intro text on home page */
 .introtext {
     text-align: center;
     margin-top: 80px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
+}
+
+.eng {
+    font-family: "Spectral", serif;
+    font-weight: 200;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.jp {
+    font-family: "Noto Serif JP", serif;
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+
+@media (max-width: 700px){
+    .introtext {
+        margin-top: 50px;
+        margin-bottom: 80px;
+    }
 }
 
 
