@@ -259,6 +259,7 @@ button {
     .eng {
         margin-bottom: 10px;
         font-size: 0.8rem;
+        font-weight: 300;
     }
 
     .jp {
@@ -640,6 +641,13 @@ button {
     margin-bottom: 3rem;
     gap: 1rem;
 }
+
+@media (max-width: 700px){
+    .processgrid {
+        grid-template-columns: 1fr;
+    }
+}
+
 
 .processimgcontainer {
     width: 100%;
