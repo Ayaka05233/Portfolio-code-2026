@@ -224,6 +224,9 @@ button {
     text-align: center;
     margin-top: 80px;
     margin-bottom: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
 
 .eng {
@@ -244,6 +247,18 @@ button {
         margin-top: 50px;
         margin-bottom: 80px;
     }
+
+    .eng {
+        margin-bottom: 10px;
+        font-size: 0.6rem;
+    }
+
+    .jp {
+        font-family: "Noto Serif JP", serif;
+        font-weight: 200;
+        font-size: 0.6rem;
+    }
+
 }
 
 
