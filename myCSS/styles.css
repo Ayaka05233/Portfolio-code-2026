@@ -516,6 +516,11 @@ button {
     object-fit: cover;
 }
 
+.vimeo {
+    width: 100%;
+    height: auto;
+}
+
 
 
 .descriptiongrid {
@@ -544,7 +549,7 @@ button {
 @media (max-width: 700px){
     .category{
         font-size: 1rem;
-        
+
     }
 }
 
@@ -571,7 +576,6 @@ button {
     font-family: "Roboto Flex", sans-serif;
     font-weight: 500;
     padding: 0%;
-    line-height: 0;
     margin: 0;
     font-size: 1.4rem;
 }
