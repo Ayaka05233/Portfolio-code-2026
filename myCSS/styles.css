@@ -544,6 +544,7 @@ button {
 @media (max-width: 700px){
     .category{
         font-size: 1rem;
+        
     }
 }
 
@@ -560,6 +561,7 @@ button {
 @media (max-width: 700px){
     .paragraph {
         margin-top: 1rem;
+        line-height: 1.6;
     }
 }
 
