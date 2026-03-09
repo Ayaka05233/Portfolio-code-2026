@@ -455,7 +455,7 @@ button {
 }
 
 .norestriction img {
-    max-width: 100%;
+    width: 100%;
     min-width: 0;
 }
 
@@ -472,7 +472,7 @@ button {
 }
 
 .twoimages img {
-    max-width: 100%;
+width: 100%;
    min-width: 0;
 }
 
@@ -485,10 +485,11 @@ button {
 .singlevid {
     display: grid;
     grid-template-columns: 1fr;
+    
 }
 
 .singlevid video {
-    max-width: 100%;
+    width: 100%;
     min-width: 0;
 }
 
