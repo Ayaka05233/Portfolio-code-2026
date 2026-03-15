@@ -813,3 +813,24 @@ width: 100%;
     margin-top: 5rem;
 }
 
+
+
+
+
+
+
+/* ⭐️⭐️⭐️⭐️⭐️⭐️⭐️ FADE IN ANIMATION ⭐️⭐️⭐️⭐️⭐️⭐️⭐️ */
+.fadein {
+    opacity: 0;
+    transform: translateY(40px);
+    transition:
+        opacity 1.2s cubic-bezier(0.25, 0.1, 0.25, 1),
+        transform 1.2s cubic-bezier(0.25, 0.1, 0.25, 1);
+    filter: blur(1px);
+}
+
+.fadein.show{
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+}
