@@ -4,23 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project1</title>
-    <link rel="stylesheet" href="../myCSS/styles.css">
-    <script src="../script.js" defer></script>
+    <link rel="stylesheet" href="/myCSS/styles.css">
+     <link rel="icon" type="image/x-icon" href="/images/icons/Favicon1.svg">
+    <script src="/script.js" defer></script>
 
     <!-- ☀️ GOOGLE FONTS ☀️ -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&family
     =Geist+Mono:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght,XOPQ,
-    XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&display=swap" 
-    rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 
 </head>
 
@@ -28,23 +26,24 @@
 
 
 <body>
-      <nav class="nav">
+<!--Desktop Nav for project pages-->
+    <nav class="nav">
     <div class="navcontainer">
         <a href="/index.html" class="works">WORKS</a>
-
-    <a href="/index.html" class="icon">
+    <a class="icon" href="/index.html">
         <img src="/images/Ayaka Iwaki.svg" alt="Portfolio Icon">
     </a>
-
     <div class="navright">
         <a href="/html/about.html">ABOUT</a>
-        <a>CONTACT</a>
-        <a>INSTAGRAM</a>
+        <a href="mailto:aiwaki@ocadu.ca">CONTACT</a>
+        <a href="https://www.instagram.com/ayakaiwaki5/?hl=en" target="_blank">
+            <img class="instadesktop" src="/images/icons/Instagram.svg">
+        </a>
     </div>
 
     <!--burger button-->
     <button class="diamond" id="open-sidebar-button" onclick="openSidebar()">
-        <img class="spinn" src="../images/diamond.svg">
+        <img class="spinn" src="/images/diamond.svg">
     </button>
 
     </div>
@@ -60,45 +59,46 @@
   <div id="navbar" class="navi">
 
     <button id="close-sidebar-button" onclick="closeSidebar()">
-                <img class="close" src="../images/icons/Close.svg">
+                <img class="close" src="/images/icons/Close.svg">
     </button>
     
     <ul class="burgercontainer">
         <li class="burgertext">
-            <a href="../html/index.html">
+            <a href="/index.html">
                 WORK
             </a>
         </li>
         <li class="burgertext">
-            <a href="../html/about.html">
+            <a href="/html/about.html">
                 ABOUT
             </a>
         </li>
 
         <li class="burgertext">
-            <a>
+            <a href="mailto:aiwaki@ocadu.ca">
                 CONTACT
             </a>
         </li>
 
         <div class="socialcontainer">
                 <a href="https://www.instagram.com/ayakaiwaki5/?hl=en">
-                <img class="iconsvg" src="../images/icons/Instagram.svg">
+                <img class="iconsvg" src="/images/icons/Instagram.svg">
                 </a>
                 <a href="https://www.linkedin.com/in/ayaka-iwaki-6b40132b3/">
-                <img class="iconsvg" src="../images/icons/Linkeden.svg">
+                <img class="iconsvg" src="/images/icons/Linkeden.svg">
                 </a>
         </div>
     </ul>
   </div>
 
+
 <!--Content Space-->
 <div class="project1grid">
-    <div class="projectimgcontainer">
-        <img src="../images/Design Process/DP0.jpg">
+    <div class="norestriction fadein">
+        <img src="/images/Design Process/DP0.jpg">
     </div>
 
-    <div class="description">
+    <div class="description fadein">
         <div class="line"></div>
         <div class="descriptiongrid">
             <div class="left">
@@ -107,11 +107,11 @@
             </div>
             <div class="right">
                 <p class="paragraph">
-                    Insert your project information here. A short paragraph description about 
-                    the intention and thought process behind the project. What the project includes, 
-                    such as brand identity, logo, website, poster etc. 
-                    The description will be 3 to 5 sentences long depending on the project. 
-                    Make it short, simple and on point. Add another sentence just because thanks. 
+                    This is a book I created during my first year at OCAD. 
+                    We created a short process book using materials from previous projects, such as notes and scrap paper. 
+                    This project taught me to be experimental and less rigid with my work. While grids and guidelines can 
+                    help create an organized and consistent look, they can sometimes narrow the way we think. 
+                    I believe there’s no single way of approaching things, and this project helped me understand that. 
                 </p>
             </div>
         </div>
@@ -121,46 +121,46 @@
         <img src="../images/Design Process/DP1.jpg">
     </div>
 
-    <div class="projectimgcontainer">
+    <div class="projectimgcontainer fadein">
         <img src="../images/Design Process/DP2.jpg">
     </div>
-    <div class="projectimgcontainer">
+    <div class="projectimgcontainer fadein">
         <img src="../images/Design Process/DP3.jpg">
     </div>
-    <div class="projectimgcontainer">
+    <div class="projectimgcontainer fadein">
         <img src="../images/Design Process/DP4.jpg">
     </div>
-    <div class="projectimgcontainer">
+    <div class="projectimgcontainer fadein">
         <img src="../images/Design Process/DP5.jpg">
     </div>
-    <div class="projectimgcontainer">
+    <div class="projectimgcontainer fadein">
         <img src="../images/Design Process/DP6.jpg">
     </div>
-    <div class="projectimgcontainer">
+    <div class="projectimgcontainer fadein">
         <img src="../images/Design Process/DP7.jpg">
     </div>
-    <div class="projectimgcontainer">
+    <div class="projectimgcontainer fadein">
         <img src="../images/Design Process/DP8.jpg">
     </div>
-    <div class="projectimgcontainer">
+    <div class="projectimgcontainer fadein">
         <img src="../images/Design Process/DP9.jpg">
     </div>
-    <div class="projectimgcontainer">
+    <div class="projectimgcontainer fadein">
         <img src="../images/Design Process/DP10.jpg">
     </div>
-    <div class="projectimgcontainer">
+    <div class="projectimgcontainer fadein">
         <img src="../images/Design Process/DP11.jpg">
     </div>
-    <div class="projectimgcontainer">
+    <div class="projectimgcontainer fadein">
         <img src="../images/Design Process/DP13.jpg">
     </div>
-    <div class="projectimgcontainer">
+    <div class="projectimgcontainer fadein">
         <img src="../images/Design Process/DP12.jpg">
     </div>
     
 </div>
 
-<section class="process">
+<section class="process fadein">
     <div class="processline"></div>
     <h2 class="processhead">Process</h2>
     <div class="processgrid">
