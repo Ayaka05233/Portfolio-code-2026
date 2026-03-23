@@ -33,10 +33,12 @@ body {
     justify-content: space-between;
     font-family: "Fragment Mono", monospace;
     font-size: 0.7rem;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 25px;
     padding-left: 50px;
     padding-right: 50px;
+    align-items: center;
+
 }
 
 .iconnav {
@@ -76,6 +78,10 @@ body {
     }
 }
 
+.logogif {
+    width: 55%;
+}
+
 .icon {
     text-align: center;
 }
@@ -104,6 +110,9 @@ body {
         display: none;
     }
 }
+
+
+
 
 /**/
 
