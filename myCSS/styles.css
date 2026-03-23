@@ -230,8 +230,8 @@ button {
 /* Intro text on home page */
 .introtext {
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 120px;
+    margin-top: 60px;
+    margin-bottom: 90px;
     padding-left: 20px;
     padding-right: 20px;
 
@@ -241,7 +241,7 @@ button {
     font-family: "Spectral", serif;
     font-weight: 200;
     font-size: 0.9rem;
-    margin-bottom: 20px;
+    margin-bottom: 0.7rem;
 }
 
 .jp {
@@ -276,7 +276,7 @@ button {
 
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 18px;
     padding-left: 50px;
     padding-right: 50px;
@@ -300,9 +300,8 @@ button {
 
 
 .gridcontent {
-    font-family: "Roboto Flex", sans-serif;
-    font-weight: lighter;
-    font-size: 0.9rem;
+    font-family: "Fragment Mono", monospace;
+    font-size: 0.7rem;
 }
 
 .gridcontent:hover {
@@ -313,11 +312,13 @@ button {
     margin-top: 10px;
 }
 
+/* hide project tiele in desktop
 @media (min-width: 700px) {
     .projectname {
         display: none;
     }
 }
+*/
 
 
 
@@ -351,6 +352,7 @@ button {
     opacity: 0;
     font-size: 1.3rem;
     z-index: 20;
+    display: none;
 }
 
 @media (max-width: 700px){
@@ -415,6 +417,59 @@ button {
     display: block;
     color: red;
 }
+
+
+/*Reel Section*/
+.reel {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media (max-width: 700px){
+    .reel {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+
+.reelhead {
+    display: grid;
+    grid-template-columns: 1fr 0.3fr 1fr;
+    text-align: center;
+    margin-top: 100px;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 700px){
+    .reelhead {
+        margin-top: 2rem;
+        grid-template-columns: 1fr 0.1fr 1fr;
+    }
+}
+
+
+.reelline {
+    height: 1px;
+    background-color: white;
+}
+
+.reeltitle {
+    font-family: "Spectral", serif;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+@media (max-width: 700px){
+    .reeltitle {
+        font-size: 1.2rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
 
 
 
@@ -667,13 +722,13 @@ width: 100%;
 
 .processimgcontainer {
     width: 100%;
-    height: 400px;
+    aspect-ratio: 3/2;
 }
 
 @media (max-width: 700px){
     .processimgcontainer{
     width: 100%;
-    aspect-ratio: 16/9;
+    aspect-ratio: 3/2;
     height: auto;
     }
 }
@@ -810,11 +865,10 @@ width: 100%;
 
 
 .footer {
-    height: 3rem;
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     font-family: "Fragment Mono", monospace;
     font-size: 0.7rem;
 }
@@ -833,6 +887,10 @@ width: 100%;
     background-color: white;
     margin-bottom: 1rem;
     margin-top: 5rem;
+}
+
+.footerline2 {
+    width: 100%
 }
 
 
