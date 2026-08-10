@@ -609,6 +609,11 @@ width: 100%;
     }
 }
 
+
+.highlight {
+    color: rgba(255, 255, 255, 0.556);
+}
+
 .categorybold {
     font-family: "Roboto Flex", sans-serif;
     font-weight: 200;
