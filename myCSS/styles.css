@@ -622,6 +622,13 @@ width: 100%;
     font-size: 0.8rem;
 }
 
+@media (max-width: 700px){
+    .categorybold{
+        font-size: 0.9rem;
+
+    }
+}
+
 .categorybox {
     margin-top: 1rem;
 }
@@ -630,6 +637,7 @@ width: 100%;
     display: grid;
     grid-template-columns: 80px 1fr;
 }
+
 
 .category {
     font-family: "Roboto Flex", sans-serif;
@@ -641,7 +649,7 @@ width: 100%;
 
 @media (max-width: 700px){
     .category{
-        font-size: 1rem;
+        font-size: 0.9rem;
 
     }
 }
