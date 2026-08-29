@@ -906,6 +906,7 @@ width: 100%;
 .subcategory {
     margin-top: 8px;
     color: rgb(130, 130, 130);
+    line-height: 1.5rem;
 }
 
 
